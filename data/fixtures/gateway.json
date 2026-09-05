@@ -1,0 +1,523 @@
+[
+  {
+    "payment_id": "PAY_1001",
+    "order_id": "ORD_1001",
+    "gross_amount": 150000,
+    "fee": 2700,
+    "tax": 486,
+    "net_amount": 146814,
+    "settlement_id": "ST_501",
+    "settlement_date": "2026-08-01"
+  },
+  {
+    "payment_id": "PAY_1002",
+    "order_id": "ORD_1002",
+    "gross_amount": 159173,
+    "fee": 2865,
+    "tax": 515,
+    "net_amount": 155793,
+    "settlement_id": "ST_502",
+    "settlement_date": "2026-08-02"
+  },
+  {
+    "payment_id": "PAY_1003",
+    "order_id": "ORD_1003",
+    "gross_amount": 168346,
+    "fee": 3030,
+    "tax": 545,
+    "net_amount": 164771,
+    "settlement_id": "ST_503",
+    "settlement_date": "2026-08-03"
+  },
+  {
+    "payment_id": "PAY_1004",
+    "order_id": "ORD_1004",
+    "gross_amount": 177519,
+    "fee": 3195,
+    "tax": 575,
+    "net_amount": 173749,
+    "settlement_id": "ST_504",
+    "settlement_date": "2026-08-05"
+  },
+  {
+    "payment_id": "PAY_1005",
+    "order_id": "ORD_1005",
+    "gross_amount": 186692,
+    "fee": 3360,
+    "tax": 604,
+    "net_amount": 182728,
+    "settlement_id": "ST_505",
+    "settlement_date": "2026-08-06"
+  },
+  {
+    "payment_id": "PAY_1006",
+    "order_id": "ORD_1006",
+    "gross_amount": 195865,
+    "fee": 3525,
+    "tax": 634,
+    "net_amount": 191706,
+    "settlement_id": "ST_506",
+    "settlement_date": "2026-08-08"
+  },
+  {
+    "payment_id": "PAY_1007",
+    "order_id": "ORD_1007",
+    "gross_amount": 205038,
+    "fee": 3690,
+    "tax": 664,
+    "net_amount": 200684,
+    "settlement_id": "ST_507",
+    "settlement_date": "2026-08-09"
+  },
+  {
+    "payment_id": "PAY_1008",
+    "order_id": "ORD_1008",
+    "gross_amount": 214211,
+    "fee": 3855,
+    "tax": 693,
+    "net_amount": 209663,
+    "settlement_id": "ST_508",
+    "settlement_date": "2026-08-11"
+  },
+  {
+    "payment_id": "PAY_1009",
+    "order_id": "ORD_1009",
+    "gross_amount": 223384,
+    "fee": 4020,
+    "tax": 723,
+    "net_amount": 218641,
+    "settlement_id": "ST_509",
+    "settlement_date": "2026-08-12"
+  },
+  {
+    "payment_id": "PAY_1010",
+    "order_id": "ORD_1010",
+    "gross_amount": 232557,
+    "fee": 4186,
+    "tax": 753,
+    "net_amount": 227618,
+    "settlement_id": "ST_510",
+    "settlement_date": "2026-08-14"
+  },
+  {
+    "payment_id": "PAY_1011",
+    "order_id": "ORD_1011",
+    "gross_amount": 241730,
+    "fee": 4351,
+    "tax": 783,
+    "net_amount": 236596,
+    "settlement_id": "ST_511",
+    "settlement_date": "2026-08-15"
+  },
+  {
+    "payment_id": "PAY_1012",
+    "order_id": "ORD_1012",
+    "gross_amount": 250903,
+    "fee": 4516,
+    "tax": 812,
+    "net_amount": 245575,
+    "settlement_id": "ST_512",
+    "settlement_date": "2026-08-17"
+  },
+  {
+    "payment_id": "PAY_1013",
+    "order_id": "ORD_1013",
+    "gross_amount": 260076,
+    "fee": 4681,
+    "tax": 842,
+    "net_amount": 254553,
+    "settlement_id": "ST_513",
+    "settlement_date": "2026-08-18"
+  },
+  {
+    "payment_id": "PAY_1014",
+    "order_id": "ORD_1014",
+    "gross_amount": 269249,
+    "fee": 4846,
+    "tax": 872,
+    "net_amount": 263531,
+    "settlement_id": "ST_514",
+    "settlement_date": "2026-08-20"
+  },
+  {
+    "payment_id": "PAY_1015",
+    "order_id": "ORD_1015",
+    "gross_amount": 278422,
+    "fee": 5011,
+    "tax": 901,
+    "net_amount": 272510,
+    "settlement_id": "ST_515",
+    "settlement_date": "2026-08-21"
+  },
+  {
+    "payment_id": "PAY_1016",
+    "order_id": "ORD_1016",
+    "gross_amount": 287595,
+    "fee": 5176,
+    "tax": 931,
+    "net_amount": 281488,
+    "settlement_id": "ST_516",
+    "settlement_date": "2026-08-23"
+  },
+  {
+    "payment_id": "PAY_1017",
+    "order_id": "ORD_1017",
+    "gross_amount": 296768,
+    "fee": 5341,
+    "tax": 961,
+    "net_amount": 290466,
+    "settlement_id": "ST_517",
+    "settlement_date": "2026-08-24"
+  },
+  {
+    "payment_id": "PAY_1018",
+    "order_id": "ORD_1018",
+    "gross_amount": 305941,
+    "fee": 5506,
+    "tax": 991,
+    "net_amount": 299444,
+    "settlement_id": "ST_518",
+    "settlement_date": "2026-08-26"
+  },
+  {
+    "payment_id": "PAY_1019",
+    "order_id": "ORD_1019",
+    "gross_amount": 315114,
+    "fee": 5672,
+    "tax": 1020,
+    "net_amount": 308422,
+    "settlement_id": "ST_519",
+    "settlement_date": "2026-08-27"
+  },
+  {
+    "payment_id": "PAY_1020",
+    "order_id": "ORD_1020",
+    "gross_amount": 324287,
+    "fee": 5837,
+    "tax": 1050,
+    "net_amount": 317400,
+    "settlement_id": "ST_520",
+    "settlement_date": "2026-08-29"
+  },
+  {
+    "payment_id": "PAY_1021",
+    "order_id": "ORD_1021",
+    "gross_amount": 333460,
+    "fee": 6002,
+    "tax": 1080,
+    "net_amount": 326378,
+    "settlement_id": "ST_521",
+    "settlement_date": "2026-08-30"
+  },
+  {
+    "payment_id": "PAY_1022",
+    "order_id": "ORD_1022",
+    "gross_amount": 342633,
+    "fee": 6167,
+    "tax": 1110,
+    "net_amount": 335356,
+    "settlement_id": "ST_522",
+    "settlement_date": "2026-09-01"
+  },
+  {
+    "payment_id": "PAY_1023",
+    "order_id": "ORD_1023",
+    "gross_amount": 351806,
+    "fee": 6332,
+    "tax": 1139,
+    "net_amount": 344335,
+    "settlement_id": "ST_523",
+    "settlement_date": "2026-09-02"
+  },
+  {
+    "payment_id": "PAY_1024",
+    "order_id": "ORD_1024",
+    "gross_amount": 360979,
+    "fee": 6497,
+    "tax": 1169,
+    "net_amount": 353313,
+    "settlement_id": "ST_524",
+    "settlement_date": "2026-09-04"
+  },
+  {
+    "payment_id": "PAY_1025",
+    "order_id": "ORD_1025",
+    "gross_amount": 370152,
+    "fee": 6662,
+    "tax": 1199,
+    "net_amount": 362291,
+    "settlement_id": "ST_525",
+    "settlement_date": "2026-09-05"
+  },
+  {
+    "payment_id": "PAY_1026",
+    "order_id": "ORD_1026",
+    "gross_amount": 379325,
+    "fee": 6827,
+    "tax": 1228,
+    "net_amount": 371270,
+    "settlement_id": "ST_526",
+    "settlement_date": "2026-09-07"
+  },
+  {
+    "payment_id": "PAY_1027",
+    "order_id": "ORD_1027",
+    "gross_amount": 388498,
+    "fee": 6992,
+    "tax": 1258,
+    "net_amount": 380248,
+    "settlement_id": "ST_527",
+    "settlement_date": "2026-09-08"
+  },
+  {
+    "payment_id": "PAY_1028",
+    "order_id": "ORD_1028",
+    "gross_amount": 397671,
+    "fee": 7158,
+    "tax": 1288,
+    "net_amount": 389225,
+    "settlement_id": "ST_528",
+    "settlement_date": "2026-09-10"
+  },
+  {
+    "payment_id": "PAY_1029",
+    "order_id": "ORD_1029",
+    "gross_amount": 406844,
+    "fee": 7323,
+    "tax": 1318,
+    "net_amount": 398203,
+    "settlement_id": "ST_529",
+    "settlement_date": "2026-09-11"
+  },
+  {
+    "payment_id": "PAY_1030",
+    "order_id": "ORD_1030",
+    "gross_amount": 416017,
+    "fee": 7488,
+    "tax": 1347,
+    "net_amount": 407182,
+    "settlement_id": "ST_530",
+    "settlement_date": "2026-09-13"
+  },
+  {
+    "payment_id": "PAY_1031",
+    "order_id": "ORD_1031",
+    "gross_amount": 425190,
+    "fee": 7653,
+    "tax": 1377,
+    "net_amount": 416160,
+    "settlement_id": "ST_531",
+    "settlement_date": "2026-09-14"
+  },
+  {
+    "payment_id": "PAY_1032",
+    "order_id": "ORD_1032",
+    "gross_amount": 434363,
+    "fee": 7818,
+    "tax": 1407,
+    "net_amount": 425138,
+    "settlement_id": "ST_532",
+    "settlement_date": "2026-09-16"
+  },
+  {
+    "payment_id": "PAY_1033",
+    "order_id": "ORD_1033",
+    "gross_amount": 443536,
+    "fee": 7983,
+    "tax": 1436,
+    "net_amount": 434117,
+    "settlement_id": "ST_533",
+    "settlement_date": "2026-09-17"
+  },
+  {
+    "payment_id": "PAY_1034",
+    "order_id": "ORD_1034",
+    "gross_amount": 452709,
+    "fee": 8148,
+    "tax": 1466,
+    "net_amount": 443095,
+    "settlement_id": "ST_534",
+    "settlement_date": "2026-09-19"
+  },
+  {
+    "payment_id": "PAY_1035",
+    "order_id": "ORD_1035",
+    "gross_amount": 461882,
+    "fee": 8313,
+    "tax": 1496,
+    "net_amount": 452073,
+    "settlement_id": "ST_535",
+    "settlement_date": "2026-09-20"
+  },
+  {
+    "payment_id": "PAY_1036",
+    "order_id": "ORD_1036",
+    "gross_amount": 471055,
+    "fee": 8478,
+    "tax": 1526,
+    "net_amount": 461051,
+    "settlement_id": "ST_536",
+    "settlement_date": "2026-09-22"
+  },
+  {
+    "payment_id": "PAY_1037",
+    "order_id": "ORD_1037",
+    "gross_amount": 480228,
+    "fee": 8644,
+    "tax": 1555,
+    "net_amount": 470029,
+    "settlement_id": "ST_537",
+    "settlement_date": "2026-09-23"
+  },
+  {
+    "payment_id": "PAY_1038",
+    "order_id": "ORD_1038",
+    "gross_amount": 489401,
+    "fee": 8809,
+    "tax": 1585,
+    "net_amount": 479007,
+    "settlement_id": "ST_538",
+    "settlement_date": "2026-09-25"
+  },
+  {
+    "payment_id": "PAY_1039",
+    "order_id": "ORD_1039",
+    "gross_amount": 498574,
+    "fee": 8974,
+    "tax": 1615,
+    "net_amount": 487985,
+    "settlement_id": "ST_539",
+    "settlement_date": "2026-09-26"
+  },
+  {
+    "payment_id": "PAY_1040",
+    "order_id": "ORD_1040",
+    "gross_amount": 507747,
+    "fee": 9139,
+    "tax": 1645,
+    "net_amount": 496963,
+    "settlement_id": "ST_540",
+    "settlement_date": "2026-09-28"
+  },
+  {
+    "payment_id": "PAY_1041",
+    "order_id": "ORD_1041",
+    "gross_amount": 516920,
+    "fee": 9304,
+    "tax": 1674,
+    "net_amount": 505942,
+    "settlement_id": "ST_541",
+    "settlement_date": "2026-09-29"
+  },
+  {
+    "payment_id": "PAY_1042",
+    "order_id": "ORD_1042",
+    "gross_amount": 526093,
+    "fee": 9469,
+    "tax": 1704,
+    "net_amount": 514920,
+    "settlement_id": "ST_542",
+    "settlement_date": "2026-10-01"
+  },
+  {
+    "payment_id": "PAY_1043",
+    "order_id": "ORD_1043",
+    "gross_amount": 535266,
+    "fee": 9634,
+    "tax": 1734,
+    "net_amount": 523898,
+    "settlement_id": "ST_543",
+    "settlement_date": "2026-10-02"
+  },
+  {
+    "payment_id": "PAY_1044",
+    "order_id": "ORD_1044",
+    "gross_amount": 544439,
+    "fee": 9799,
+    "tax": 1763,
+    "net_amount": 532877,
+    "settlement_id": "ST_544",
+    "settlement_date": "2026-10-04"
+  },
+  {
+    "payment_id": "PAY_1045",
+    "order_id": "ORD_1045",
+    "gross_amount": 553612,
+    "fee": 9965,
+    "tax": 1793,
+    "net_amount": 541854,
+    "settlement_id": "ST_545",
+    "settlement_date": "2026-10-05"
+  },
+  {
+    "payment_id": "PAY_1046",
+    "order_id": "ORD_1046",
+    "gross_amount": 562785,
+    "fee": 10130,
+    "tax": 1823,
+    "net_amount": 550832,
+    "settlement_id": "ST_546",
+    "settlement_date": "2026-10-07"
+  },
+  {
+    "payment_id": "PAY_1047",
+    "order_id": "ORD_1047",
+    "gross_amount": 571958,
+    "fee": 10295,
+    "tax": 1853,
+    "net_amount": 559810,
+    "settlement_id": "ST_546",
+    "settlement_date": "2026-10-07"
+  },
+  {
+    "payment_id": "PAY_1048",
+    "order_id": "ORD_1048",
+    "gross_amount": 581131,
+    "fee": 10460,
+    "tax": 1882,
+    "net_amount": 568789,
+    "settlement_id": "ST_546",
+    "settlement_date": "2026-10-07"
+  },
+  {
+    "payment_id": "PAY_1049",
+    "order_id": "ORD_1049",
+    "gross_amount": 590304,
+    "fee": 10625,
+    "tax": 1912,
+    "refund_amount": 59030,
+    "net_amount": 518737,
+    "settlement_id": "ST_547",
+    "settlement_date": "2026-10-08"
+  },
+  {
+    "payment_id": "PAY_1050",
+    "order_id": "ORD_1050",
+    "gross_amount": 500000,
+    "fee": 9000,
+    "tax": 1620,
+    "net_amount": 489380,
+    "settlement_id": "ST_548",
+    "settlement_date": "2026-10-10"
+  },
+  {
+    "payment_id": "PAY_1051",
+    "order_id": "ORD_1051",
+    "gross_amount": 500000,
+    "fee": 9000,
+    "tax": 1620,
+    "net_amount": 489380,
+    "settlement_id": "ST_549",
+    "settlement_date": "2026-10-10"
+  },
+  {
+    "payment_id": "PAY_1052",
+    "order_id": "ORD_1052",
+    "gross_amount": 617823,
+    "fee": 11120,
+    "tax": 2001,
+    "net_amount": 604702,
+    "settlement_id": "ST_550",
+    "settlement_date": "2026-10-11"
+  }
+]

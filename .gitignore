@@ -1,0 +1,25 @@
+# Secrets / local config — never commit real credentials.
+# .env.example is the checked-in template and is force-kept below.
+.env
+.env.*
+!.env.example
+
+# Build output
+*.exe
+*.exe~
+/server
+/out/
+
+# Logs
+*.log
+
+# Go test/coverage artifacts
+*.test
+*.out
+coverage.*
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

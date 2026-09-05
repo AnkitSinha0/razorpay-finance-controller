@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Finance Controller</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-title">
+      <h1>AI Finance Controller</h1>
+      <p class="subtitle">Ledger &middot; Gateway &middot; Bank reconciliation</p>
+    </div>
+    <div class="topbar-actions">
+      <span id="status-line" class="status-line"></span>
+      <button id="run-btn" type="button">Run Reconciliation</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel generate-panel" aria-label="Generate a synthetic dataset">
+      <div class="panel-header">
+        <h2>Generate dataset</h2>
+      </div>
+      <p class="muted panel-note">Synthetic &middot; internally consistent &middot; a fresh batch every click</p>
+      <div class="generate-controls">
+        <div class="size-picker" id="size-picker" role="group" aria-label="Dataset size">
+          <button type="button" class="size-chip is-active" data-size="50">50</button>
+          <button type="button" class="size-chip" data-size="100">100</button>
+          <button type="button" class="size-chip" data-size="250">250</button>
+        </div>
+        <button id="generate-btn" type="button" class="primary-btn">Generate &amp; Reconcile</button>
+      </div>
+      <div id="generate-progress" class="generate-progress" hidden>
+        <p id="generate-progress-label" class="generate-progress-label"></p>
+        <div class="meter"><div id="generate-progress-bar" class="meter-fill meter-evidence" style="width:0%"></div></div>
+        <ol id="generate-steps" class="generate-steps"></ol>
+      </div>
+      <div id="generate-preview" class="generate-preview" hidden>
+        <div class="generate-preview-head">
+          <span>Fresh sample from this batch</span>
+          <span class="seed-chip">seed: <code id="preview-seed"></code></span>
+        </div>
+        <p class="muted panel-note">Different seed, different records — concrete proof this batch was generated just now, not replayed.</p>
+        <div id="preview-tables" class="preview-tables"></div>
+      </div>
+    </section>
+
+    <section class="panel upload-panel" aria-label="Upload your own dataset">
+      <div class="panel-header">
+        <h2>Bring your own data</h2>
+      </div>
+      <p class="muted panel-note">Three JSON files, same shape as the fixtures &middot; up to 500KB each &middot; ground truth optional</p>
+      <form id="upload-form" class="upload-form">
+        <div class="upload-fields">
+          <label class="upload-field">
+            <span>Ledger</span>
+            <input type="file" id="upload-ledger" accept="application/json,.json" required />
+          </label>
+          <label class="upload-field">
+            <span>Gateway</span>
+            <input type="file" id="upload-gateway" accept="application/json,.json" required />
+          </label>
+          <label class="upload-field">
+            <span>Bank</span>
+            <input type="file" id="upload-bank" accept="application/json,.json" required />
+          </label>
+        </div>
+        <button id="upload-btn" type="submit" class="primary-btn">Upload &amp; Reconcile</button>
+      </form>
+    </section>
+
+    <section id="empty-state" class="empty-state">
+      <p>No reconciliation has been run yet.</p>
+      <p class="muted">Click <strong>Run Reconciliation</strong> to ingest the ledger, gateway, and bank fixtures, run the deterministic matching engine, escalate ambiguous cases to the Gemini judge, and compute the full-batch results below — or generate a fresh synthetic dataset above instead.</p>
+    </section>
+
+    <section id="results" hidden>
+      <section id="summary" class="stat-row" aria-label="Batch summary"></section>
+
+      <section class="panel funnel-panel" aria-label="Reconciliation funnel">
+        <ol id="funnel" class="funnel"></ol>
+      </section>
+
+      <section id="gt-misses-panel" class="panel" aria-label="Ground-truth misses" hidden>
+        <div class="panel-header">
+          <h2>Ground-truth misses</h2>
+          <span class="panel-meta" id="gt-misses-count"></span>
+        </div>
+        <p class="muted panel-note">Orders the pipeline classified differently from the known-correct answer. Measured only because this synthetic batch ships its own ground truth — a <strong>MATCHED</strong> miss raises no exception, so nothing else surfaces it.</p>
+        <div class="table-scroll">
+          <table id="gt-misses-table">
+            <thead>
+              <tr>
+                <th>Order</th>
+                <th>Pipeline said</th>
+                <th>Actually</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Exceptions</h2>
+          <span class="panel-meta" id="exceptions-count"></span>
+        </div>
+        <p class="muted panel-note">Ranked by ₹ value at risk, not record count. Click a row to investigate.</p>
+        <div class="table-scroll">
+          <table id="exceptions-table">
+            <thead>
+              <tr>
+                <th>Order</th>
+                <th>Category</th>
+                <th>Action</th>
+                <th class="num">Value at risk</th>
+                <th>Source</th>
+                <th>Reason</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p id="exceptions-empty" class="muted panel-note" hidden>No exceptions — every order reconciled cleanly.</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Transactions</h2>
+          <span class="panel-meta" id="transactions-count"></span>
+        </div>
+        <button id="transactions-toggle" type="button" class="toggle-btn"></button>
+        <div id="transactions-body-wrap" hidden>
+          <div class="filter-row" id="decision-filter" role="group" aria-label="Filter by decision">
+            <button type="button" class="filter-chip is-active" data-filter="ALL">All</button>
+            <button type="button" class="filter-chip" data-filter="MATCHED">Matched</button>
+            <button type="button" class="filter-chip" data-filter="DISCREPANCY">Discrepancy</button>
+            <button type="button" class="filter-chip" data-filter="AMBIGUOUS">Ambiguous</button>
+            <button type="button" class="filter-chip" data-filter="UNRESOLVED">Unresolved</button>
+          </div>
+          <div class="table-scroll">
+            <table id="transactions-table">
+              <thead>
+                <tr>
+                  <th>Order</th>
+                  <th>Decision</th>
+                  <th>Rule</th>
+                  <th class="num">Expected net</th>
+                  <th class="num">Actual credit</th>
+                  <th class="num">Delta</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="error-banner" class="error-banner" hidden></section>
+  </main>
+
+  <div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
+  <aside id="drawer" class="drawer" hidden aria-label="Order investigation" role="dialog" aria-modal="true">
+    <div class="drawer-header">
+      <h2 id="drawer-title">Order</h2>
+      <button id="drawer-close" type="button" class="drawer-close" aria-label="Close">&times;</button>
+    </div>
+    <div id="drawer-body" class="drawer-body"></div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>

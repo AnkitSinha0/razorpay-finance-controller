@@ -1,0 +1,772 @@
+[
+  {
+    "order_id": "ORD_1001",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1001"
+    ],
+    "expected_utrs": [
+      "UTR000001"
+    ],
+    "expected_settlement_ids": [
+      "ST_501"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1002",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1002"
+    ],
+    "expected_utrs": [
+      "UTR000002"
+    ],
+    "expected_settlement_ids": [
+      "ST_502"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1003",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1003"
+    ],
+    "expected_utrs": [
+      "UTR000003"
+    ],
+    "expected_settlement_ids": [
+      "ST_503"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1004",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1004"
+    ],
+    "expected_utrs": [
+      "UTR000004"
+    ],
+    "expected_settlement_ids": [
+      "ST_504"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1005",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1005"
+    ],
+    "expected_utrs": [
+      "UTR000005"
+    ],
+    "expected_settlement_ids": [
+      "ST_505"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1006",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1006"
+    ],
+    "expected_utrs": [
+      "UTR000006"
+    ],
+    "expected_settlement_ids": [
+      "ST_506"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1007",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1007"
+    ],
+    "expected_utrs": [
+      "UTR000007"
+    ],
+    "expected_settlement_ids": [
+      "ST_507"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1008",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1008"
+    ],
+    "expected_utrs": [
+      "UTR000008"
+    ],
+    "expected_settlement_ids": [
+      "ST_508"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1009",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1009"
+    ],
+    "expected_utrs": [
+      "UTR000009"
+    ],
+    "expected_settlement_ids": [
+      "ST_509"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1010",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1010"
+    ],
+    "expected_utrs": [
+      "UTR000010"
+    ],
+    "expected_settlement_ids": [
+      "ST_510"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1011",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1011"
+    ],
+    "expected_utrs": [
+      "UTR000011"
+    ],
+    "expected_settlement_ids": [
+      "ST_511"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1012",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1012"
+    ],
+    "expected_utrs": [
+      "UTR000012"
+    ],
+    "expected_settlement_ids": [
+      "ST_512"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1013",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1013"
+    ],
+    "expected_utrs": [
+      "UTR000013"
+    ],
+    "expected_settlement_ids": [
+      "ST_513"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1014",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1014"
+    ],
+    "expected_utrs": [
+      "UTR000014"
+    ],
+    "expected_settlement_ids": [
+      "ST_514"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1015",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1015"
+    ],
+    "expected_utrs": [
+      "UTR000015"
+    ],
+    "expected_settlement_ids": [
+      "ST_515"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1016",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1016"
+    ],
+    "expected_utrs": [
+      "UTR000016"
+    ],
+    "expected_settlement_ids": [
+      "ST_516"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1017",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1017"
+    ],
+    "expected_utrs": [
+      "UTR000017"
+    ],
+    "expected_settlement_ids": [
+      "ST_517"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1018",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1018"
+    ],
+    "expected_utrs": [
+      "UTR000018"
+    ],
+    "expected_settlement_ids": [
+      "ST_518"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1019",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1019"
+    ],
+    "expected_utrs": [
+      "UTR000019"
+    ],
+    "expected_settlement_ids": [
+      "ST_519"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1020",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1020"
+    ],
+    "expected_utrs": [
+      "UTR000020"
+    ],
+    "expected_settlement_ids": [
+      "ST_520"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1021",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1021"
+    ],
+    "expected_utrs": [
+      "UTR000021"
+    ],
+    "expected_settlement_ids": [
+      "ST_521"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1022",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1022"
+    ],
+    "expected_utrs": [
+      "UTR000022"
+    ],
+    "expected_settlement_ids": [
+      "ST_522"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1023",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1023"
+    ],
+    "expected_utrs": [
+      "UTR000023"
+    ],
+    "expected_settlement_ids": [
+      "ST_523"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1024",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1024"
+    ],
+    "expected_utrs": [
+      "UTR000024"
+    ],
+    "expected_settlement_ids": [
+      "ST_524"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1025",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1025"
+    ],
+    "expected_utrs": [
+      "UTR000025"
+    ],
+    "expected_settlement_ids": [
+      "ST_525"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1026",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1026"
+    ],
+    "expected_utrs": [
+      "UTR000026"
+    ],
+    "expected_settlement_ids": [
+      "ST_526"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1027",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1027"
+    ],
+    "expected_utrs": [
+      "UTR000027"
+    ],
+    "expected_settlement_ids": [
+      "ST_527"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1028",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1028"
+    ],
+    "expected_utrs": [
+      "UTR000028"
+    ],
+    "expected_settlement_ids": [
+      "ST_528"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1029",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1029"
+    ],
+    "expected_utrs": [
+      "UTR000029"
+    ],
+    "expected_settlement_ids": [
+      "ST_529"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1030",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1030"
+    ],
+    "expected_utrs": [
+      "UTR000030"
+    ],
+    "expected_settlement_ids": [
+      "ST_530"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1031",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1031"
+    ],
+    "expected_utrs": [
+      "UTR000031"
+    ],
+    "expected_settlement_ids": [
+      "ST_531"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1032",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1032"
+    ],
+    "expected_utrs": [
+      "UTR000032"
+    ],
+    "expected_settlement_ids": [
+      "ST_532"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1033",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1033"
+    ],
+    "expected_utrs": [
+      "UTR000033"
+    ],
+    "expected_settlement_ids": [
+      "ST_533"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1034",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1034"
+    ],
+    "expected_utrs": [
+      "UTR000034"
+    ],
+    "expected_settlement_ids": [
+      "ST_534"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1035",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1035"
+    ],
+    "expected_utrs": [
+      "UTR000035"
+    ],
+    "expected_settlement_ids": [
+      "ST_535"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1036",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1036"
+    ],
+    "expected_utrs": [
+      "UTR000036"
+    ],
+    "expected_settlement_ids": [
+      "ST_536"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1037",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1037"
+    ],
+    "expected_utrs": [
+      "UTR000037"
+    ],
+    "expected_settlement_ids": [
+      "ST_537"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1038",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1038"
+    ],
+    "expected_utrs": [
+      "UTR000038"
+    ],
+    "expected_settlement_ids": [
+      "ST_538"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1039",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1039"
+    ],
+    "expected_utrs": [
+      "UTR000039"
+    ],
+    "expected_settlement_ids": [
+      "ST_539"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1040",
+    "case_type": "NORMAL",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1040"
+    ],
+    "expected_utrs": [
+      "UTR000040"
+    ],
+    "expected_settlement_ids": [
+      "ST_540"
+    ],
+    "notes": "Exact reference match, fee/tax-adjusted net, settlement lag 0-1 days."
+  },
+  {
+    "order_id": "ORD_1041",
+    "case_type": "DATE_LAG",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1041"
+    ],
+    "expected_utrs": [
+      "UTR000041"
+    ],
+    "expected_settlement_ids": [
+      "ST_541"
+    ],
+    "notes": "Settlement lag is 2-3 days; requires the date-window tolerance, not same-day matching."
+  },
+  {
+    "order_id": "ORD_1042",
+    "case_type": "DATE_LAG",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1042"
+    ],
+    "expected_utrs": [
+      "UTR000042"
+    ],
+    "expected_settlement_ids": [
+      "ST_542"
+    ],
+    "notes": "Settlement lag is 2-3 days; requires the date-window tolerance, not same-day matching."
+  },
+  {
+    "order_id": "ORD_1043",
+    "case_type": "DATE_LAG",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1043"
+    ],
+    "expected_utrs": [
+      "UTR000043"
+    ],
+    "expected_settlement_ids": [
+      "ST_543"
+    ],
+    "notes": "Settlement lag is 2-3 days; requires the date-window tolerance, not same-day matching."
+  },
+  {
+    "order_id": "ORD_1044",
+    "case_type": "DATE_LAG",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1044"
+    ],
+    "expected_utrs": [
+      "UTR000044"
+    ],
+    "expected_settlement_ids": [
+      "ST_544"
+    ],
+    "notes": "Settlement lag is 2-3 days; requires the date-window tolerance, not same-day matching."
+  },
+  {
+    "order_id": "ORD_1045",
+    "case_type": "DATE_LAG",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1045"
+    ],
+    "expected_utrs": [
+      "UTR000045"
+    ],
+    "expected_settlement_ids": [
+      "ST_545"
+    ],
+    "notes": "Settlement lag is 2-3 days; requires the date-window tolerance, not same-day matching."
+  },
+  {
+    "order_id": "ORD_1046",
+    "case_type": "BATCH",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1046"
+    ],
+    "expected_utrs": [
+      "UTR000046"
+    ],
+    "expected_settlement_ids": [
+      "ST_546"
+    ],
+    "notes": "One of 3 orders batched into a single settlement; bank credit equals the sum of all 3 net amounts (N:1 sum match)."
+  },
+  {
+    "order_id": "ORD_1047",
+    "case_type": "BATCH",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1047"
+    ],
+    "expected_utrs": [
+      "UTR000046"
+    ],
+    "expected_settlement_ids": [
+      "ST_546"
+    ],
+    "notes": "One of 3 orders batched into a single settlement; bank credit equals the sum of all 3 net amounts (N:1 sum match)."
+  },
+  {
+    "order_id": "ORD_1048",
+    "case_type": "BATCH",
+    "expected_decision": "MATCHED",
+    "expected_payment_ids": [
+      "PAY_1048"
+    ],
+    "expected_utrs": [
+      "UTR000046"
+    ],
+    "expected_settlement_ids": [
+      "ST_546"
+    ],
+    "notes": "One of 3 orders batched into a single settlement; bank credit equals the sum of all 3 net amounts (N:1 sum match)."
+  },
+  {
+    "order_id": "ORD_1049",
+    "case_type": "REFUND",
+    "expected_decision": "DISCREPANCY",
+    "expected_payment_ids": [
+      "PAY_1049"
+    ],
+    "expected_utrs": [
+      "UTR000047"
+    ],
+    "expected_settlement_ids": [
+      "ST_547"
+    ],
+    "notes": "Bank credit is net of a partial refund; plain fee/tax formula alone will not reconcile it — refund_amount must be accounted for. Evidence is sufficient (payment_id ties the chain) so it should resolve as a DISCREPANCY, not UNRESOLVED."
+  },
+  {
+    "order_id": "ORD_1050",
+    "case_type": "DUPLICATE",
+    "expected_decision": "UNRESOLVED",
+    "expected_payment_ids": [
+      "PAY_1050"
+    ],
+    "expected_utrs": [
+      "UTR000048",
+      "UTR000049"
+    ],
+    "notes": "Two orders share identical amount, date, and net amount; bank descriptions carry no payment_id, so neither the deterministic engine nor the AI judge can safely pick which credit belongs to which order. Must stay UNRESOLVED, never guessed."
+  },
+  {
+    "order_id": "ORD_1051",
+    "case_type": "DUPLICATE",
+    "expected_decision": "UNRESOLVED",
+    "expected_payment_ids": [
+      "PAY_1051"
+    ],
+    "expected_utrs": [
+      "UTR000048",
+      "UTR000049"
+    ],
+    "notes": "Two orders share identical amount, date, and net amount; bank descriptions carry no payment_id, so neither the deterministic engine nor the AI judge can safely pick which credit belongs to which order. Must stay UNRESOLVED, never guessed."
+  },
+  {
+    "order_id": "ORD_1052",
+    "case_type": "MISSING_BANK",
+    "expected_decision": "UNRESOLVED",
+    "expected_payment_ids": [
+      "PAY_1052"
+    ],
+    "notes": "Ledger and gateway agree, but no bank credit exists at all. Real operational gap — must surface as MISSING_IN_BANK, not be silently dropped."
+  }
+]
